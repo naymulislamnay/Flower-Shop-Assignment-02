@@ -3,25 +3,25 @@
 
 .noto-serif-regular{
   font-family: "Noto Serif", serif;
-  font-weight: 400;
+  /* font-weight: 400; */
 }
 
 
 .inter-regular{
   font-family: "Inter", sans-serif;
-  font-weight: 400;
+  /* font-weight: 400; */
 }
 
 /* universal */
 
-*{
+/* *{
     margin: 0;
     padding: 0;
-}
+} */
 
-nav{
+/* header{
     margin: 0 auto;
-}
+} */
 
 /* tailwind */
 @import "tailwindcss"
