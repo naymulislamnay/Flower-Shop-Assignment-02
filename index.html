@@ -21,14 +21,14 @@
     <header class="max-w-[1140px] mx-auto inter-regular">
 
         <!-- nav bar -->
-        <nav class="flex justify-between items-center">
-            <img src="./assets/logo.png" alt="" class="">
+        <nav class="flex justify-between items-center mt-[30px]">
+            <img src="./assets/logo.png" alt="">
 
             <div>
                 <ul class="flex gap-12 text-black/50">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Shop</a></li>
-                    <li><a href="#">About Us</a></li>
+                    <li class="hidden md:block"><a href="#">Home</a></li>
+                    <li class="hidden md:block"><a href="#">Shop</a></li>
+                    <li class="hidden md:block"><a href="#">About Us</a></li>
                     <li>
                         <a href="#">
                             <i class="fa-solid fa-cart-shopping"></i>
@@ -41,7 +41,7 @@
 
         <!-- banner -->
         <section class="flex justify-between items-end mt-[120px]">
-            <div class="">
+            <div class="flex-1/2 w-full">
                 <p class="noto-serif-regular text-[65px] font-bold leading-tight mb-[13px]">
                     ALWAYS <span class="text-[#E95A08]">FRESH FLOWERS</span>
                 </p>
@@ -52,7 +52,7 @@
                 </p>
             </div>
 
-            <img src="./assets/hero-flower.png" alt="" class="">
+            <img src="./assets/hero-flower.png" alt="" class="flex-1/2 w-full">
         </section>
 
     </header>
@@ -317,7 +317,7 @@
             </div>
 
             <!-- social icons -->
-            <div class="flex justify-between gap-5">
+            <div class="flex gap-5 max-w-fit px-5 items-">
                 <img src="./assets/icon-linkedin.png" alt="" class="max-w-[36px] max-h-[36px]">
                 <img src="./assets/icon-twitter.png" alt="" class="max-w-[36px] max-h-[36px]">
                 <img src="./assets/icon-facebook.png" alt="" class="max-w-[36px] max-h-[36px]">
