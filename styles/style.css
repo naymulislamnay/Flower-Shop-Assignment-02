@@ -12,5 +12,17 @@
   font-weight: 400;
 }
 
+/* universal */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    margin: 0 auto;
+}
+
 /* tailwind */
 @import "tailwindcss"
+
